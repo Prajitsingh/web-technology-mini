@@ -1,0 +1,132 @@
+.btn-group button {
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+
+.top-btn{
+width:25%;
+}
+
+#home{
+width:100%;
+}
+
+.fade{
+animation:fading 10s infinite;
+height:70%;
+width:100%;
+}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+#login,#tnc,#feed,#reg,#fpass,#otp,#fpsw{
+  display:none;
+  width:100%;
+}
+
+#abt{
+  display:none;
+  width: 100%;
+  height: 75%;
+  background-color: plum;
+}
+
+#login{
+  height:70%;
+}
+
+#usr_login,#emp_login{
+  width:50%;
+  position: relative;
+  height:100%;
+}
+
+#form{
+  width:80%;
+  position: relative;
+  height:100%;
+}
+
+#pass{
+  width:20%;
+  position: relative;
+  height:100%;
+}
+
+
+#usr_login{
+  float: left;
+  background-color: lightslategray;
+}
+#form{
+  float: left;
+  background-color: yellowgreen;
+}
+
+#emp_login{
+  background-color: skyblue;
+  float:right;
+}
+
+#pass{
+  float:right;
+}
+
+form{
+  text-align:center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.leg{
+  padding:1%;
+  font-size: 155%;
+}
+
+fieldset{
+  margin: 11%;
+}
+label{
+  padding:2%;
+  font-size: 130%;
+}
+
+#form input{
+  width:50%;
+  height:8%;
+}
+
+#reg{
+  height: 70%;
+}
+
+#m1,#m2,#m3,#m4,#m5{
+  display: none;
+  color:red;
+  margin-left: 10%;
+  font-family: Arial;
+}
+
+#p1,#p2{
+  width:50%;
+  height:100%;
+  position: relative;
+}
+#p1{
+  
+  float: left;
+}
+#p2{
+  float:right;
+}
+
+textarea { 
+  width:40%;
+  height: 25%;
+  resize:none;
+}
